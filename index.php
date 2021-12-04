@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root","root","postview");
+$conn = mysqli_connect("localhost","root","","view");
 
 $query = mysqli_query($conn,"SELECT * FROM post");
 if ($query) {

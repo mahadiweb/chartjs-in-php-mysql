@@ -41,11 +41,17 @@ const myChart = new Chart(ctx, {
     },
     options: {
         scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
+  	 yAxes: [{
+    	  display: true,
+   	   ticks: {
+    	    beginAtZero: true
+ 	   }
+   	 }],
+    	xAxes: [{
+     	 display: false
+   	 }]
+  	},
+    },
 });
 </script>
 

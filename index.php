@@ -48,7 +48,7 @@ const myChart = new Chart(ctx, {
  	   }
    	 }],
     	xAxes: [{
-     	 display: false
+     	 display: true
    	 }]
   	},
     },
